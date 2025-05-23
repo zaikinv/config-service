@@ -1,0 +1,7 @@
+{
+  "name": "config-service",
+  "type": "module",
+  "dependencies": {
+    "contentful": "^9.3.1"
+  }
+}
