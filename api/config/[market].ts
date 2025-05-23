@@ -1,5 +1,6 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
-import { createClient } from 'contentful';
+import contentful from 'contentful';
+const { createClient } = contentful;
 
 const client = createClient({
   space: 'pe4od65qd3eb',
